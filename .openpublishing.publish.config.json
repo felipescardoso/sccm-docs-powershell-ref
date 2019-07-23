@@ -2,9 +2,9 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "sccm-powershell",
+      "docset_name": "sccm-docs-powershell-ref",
       "build_source_folder": ".",
-      "build_output_subfolder": "sccm-powershell",
+      "build_output_subfolder": "sccm-docs-powershell-ref",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
