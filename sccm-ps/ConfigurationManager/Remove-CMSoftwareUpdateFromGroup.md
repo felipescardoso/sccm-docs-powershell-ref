@@ -91,9 +91,12 @@ Remove-CMSoftwareUpdateFromGroup [-Force] -SoftwareUpdate <IResultObject[]>
 
 ### Example 1
 ```
-PS XYZ:\>  
+PS XYZ:\>  Remove-CMSoftwareUpdateFromGroup -SoftwareUpdateGroupName "NameSoftwareUpdateGroup" -SoftwareUpdateId CI_ID-Patch
 ```
-
+### Example 2
+```
+PS XYZ:\>  Remove-CMSoftwareUpdateFromGroup -SoftwareUpdateGroupName "NameSoftwareUpdateGroup" -SoftwareUpdateName "Patche"
+```
  
 
 ## PARAMETERS
